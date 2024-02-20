@@ -24,7 +24,7 @@ const Modal = ({ show, children, onClose }: ModalProps) => {
         >
           <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
         </Transition.Child>
-        <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white shadow-xl transition-all p-7 mx-auto sm:my-40 sm:w-full sm:max-w-2xl">
+        <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white shadow-xl transition-all p-7 mx-auto sm:my-[-13em] sm:w-full sm:max-w-2xl">
           {children}
         </Dialog.Panel>
       </Dialog>
