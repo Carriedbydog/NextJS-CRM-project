@@ -5,7 +5,7 @@ interface layoutProps {
   children: React.ReactNode;
 }
 
-const layout = ({ children }: layoutProps) => {
+const Layout = ({ children }: layoutProps) => {
   return (
     <>
       <Sidebar />
@@ -14,4 +14,4 @@ const layout = ({ children }: layoutProps) => {
   );
 };
 
-export default layout;
+export default Layout;
