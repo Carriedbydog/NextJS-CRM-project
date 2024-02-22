@@ -10,14 +10,15 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
+    "@tanstack/react-query": "^5.18.0",
+    "@tanstack/react-query-devtools": "^5.18.0",
     "clsx": "^2.1.0",
+    "dotenv": "^16.4.5",
     "formik": "^2.4.5",
     "next": "14.1.0",
-    "react": "^18",
     "postcss": "^8.4.33",
-    "react-dom": "^18",
-    "@tanstack/react-query": "^5.18.0",
-    "@tanstack/react-query-devtools": "^5.18.0"
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
