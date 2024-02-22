@@ -1,3 +1,4 @@
+import { CompanyStatus } from '@/lib/api';
 import React from 'react';
 
 export enum Status {
@@ -9,7 +10,7 @@ export enum Status {
 
 interface StatusLabelProps {
   children?: React.ReactNode;
-  status: Status;
+  status: Status | CompanyStatus;
 }
 
 export default function StatusLabel({ children, status }: StatusLabelProps) {
